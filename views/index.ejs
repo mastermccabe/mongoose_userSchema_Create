@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js ">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js">
+  </script>
+  <title>Quoting Dojo</title>
+</head>
+
+<body>
+
+  <div id="wrapper" class="container">
+    <h1>Welcome to CodingDojo</h1>
+    <form action="/users" class="col-xs-4 col-md-4" id="form" method="post">
+      <div class="form-group">
+        <label for="name"><h4>Your Name</h4></label>
+        <input required type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" placeholder="Enter name">
+        <small id="nameHelp" class="form-text text-muted">We'll share your info with everyone.</small>
+      </div>
+      <label for="quote">Quote</label>
+      <textarea class="form-control" name="quote" rows="3"></textarea>
+      <!-- <input type="text" name="name"> -->
+      <button type="submit " class="btn btn-primary btn-lg active " role="button ">submit</button>
+      <a href="/quotes" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">see quotes</a><br>
+    </form>
+  </div>
+  <div>
+
+  </div>
+
+
+</body>
+
+</html>
